@@ -1,0 +1,26 @@
+3.5 new keyword is used to create an instance of the class and call class's constructor to initialize the object.
+
+3.6
+public class ex3_6 {
+	private double x,y;
+	public ex3_6(double x,double y)
+	{
+		this.x = x;
+		this.y = y;
+	}
+	public ex3_6()
+	{
+		x = 0.0;
+		y = 0.0;
+	}
+}
+
+3.7 class have instance variable,and each object of class must maintain information seperately from all other objects.
+
+3.8 System and String are both in the java.lang, which is implicitly imported into java source-code file.
+
+3.9 every use of a class's name in a program is fully qualified,there is no need to import the class.(ex: java.util.Scanner)
+
+3.10 if instance variable is private variable,we could not get a private variable value and assign a value to instance variable for an object of class. 
+
+
